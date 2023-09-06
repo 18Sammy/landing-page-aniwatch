@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0%;
+  padding: 0;
+  background-color: black;
+  color: #333;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.links {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.links li a {
+  color: darkred;
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 0;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero h1 {
+  color: burlywood;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: burlywood;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #f44336;
+}
+
+.attribute {
+  display: flex;
+  align-items: center;
+  padding: 4rem 5%;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.attribute-content {
+  flex: 1;
+}
+
+.attribute h2 {
+  text-decoration: underline;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.attribute p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.attribute-image {
+  flex: 1;
+  text-align: center;
+}
+
+.attribute-image img {
+  max-width: 75%;
+  height: 75;
+  border-radius: 40px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-image: url("naruto-shippuuden-eternal-mangekyou-sharingan-sharingan-black-background-wallpaper-preview.jpg"),
+    url("son-goku-dragon-ball-dragon-ball-z-wallpaper-preview (1).jpg");
+  background-position: center, right;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    margin: 0 10px;
+  }
+}
